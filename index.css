@@ -1,0 +1,31 @@
+#hero {
+    margin: 20px;
+    padding: 10px;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(199, 255, 255);
+}
+
+#whyUs {
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(199, 255, 255);
+}
+
+#callToAction {
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(199, 255, 255);
+}
+
+
+@media (max-width: 800px) {
+    #whyUs {
+        width: 100%;
+    }
+    #callToAction {
+        width: 100%;
+    }
+}
